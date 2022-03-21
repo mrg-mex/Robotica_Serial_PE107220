@@ -16,5 +16,5 @@ En este repositorio contiene los archivos necesarios para realizar las práctica
 
 ##Contacto
 
-| **EPM**  | Erik Peña Medina [GitHub profile](https://github.com/ErikFiUNAM) |
-| **MGR-MX** | Mechatronics Research Group, México [GitHub profile](https://github.com/mrg-mx) |
+-| **EPM**  | Erik Peña Medina [GitHub profile](https://github.com/ErikFiUNAM) |
+-| **MGR-MX** | Mechatronics Research Group, México [GitHub profile](https://github.com/mrg-mx) |
