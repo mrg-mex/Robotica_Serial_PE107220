@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="09/17/20||23:58:50" using="Simscape Multibody Link Version 6.1" from="SolidWorks 26.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Ensamble_P1" uid="Ensamble_P1" version="109">
+<AssemblyFile name="Ensamble_P1.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Base_P-1" uid="Base_P-1" grounded="true" entityUid="Base_P*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.14374824881875664 -0.12186006797054003 0.090937192157046362</Translation>
+</Transform>
+</Instance>
+<Instance name="Eslabón_P1-1" uid="Eslabón_P1-1" entityUid="Eslabón_P1*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.16748098482181928 -0.14186006797054002 0.18593719215704638</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_P-1</Uid>
+</InstancePath>
+<Position>-0.024999999999999994 -0.01999999999999999 0.055000000000000007</Position>
+<Axis>0 1 -1.7347234759768068e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eslabón_P1-1</Uid>
+</InstancePath>
+<Position>0.18000000000000002 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_P-1</Uid>
+</InstancePath>
+<Position>-0.024999999999999994 0.01999999999999999 0.055000000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eslabón_P1-1</Uid>
+</InstancePath>
+<Position>0.18000000000000002 0 -0.040000000000000008</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base_P" uid="Base_P*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base_P.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.32200000000000017</Mass>
+<CenterOfMass>0.02112577639751554 0 0.047826086956521741</CenterOfMass>
+<Inertia>0.00037081992753623189 0.001014861833592133 0.0008004085727225679 0 -0.00018485054347826079 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_P_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69019607843137254" g="0.8901960784313725" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.69019607843137254" g="0.8901960784313725" b="0.58823529411764708" a="1"/>
+<Specular r="0.34509803921568627" g="0.44509803921568625" b="0.29411764705882354" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eslabón_P1" uid="Eslabón_P1*:*Predeterminado" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Eslabón_P1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.28800000000000003</Mass>
+<CenterOfMass>0.089999999999999997 0.019999999999999997 -0.019999999999999997</CenterOfMass>
+<Inertia>7.6799999999999983e-05 0.00081600000000000032 0.00081600000000000032 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Eslabón_P1_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.85490196078431369" g="0.67450980392156867" b="0.54117647058823526" a="1"/>
+<Diffuse r="0.85490196078431369" g="0.67450980392156867" b="0.54117647058823526" a="1"/>
+<Specular r="0.42745098039215684" g="0.33725490196078434" b="0.27058823529411763" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
