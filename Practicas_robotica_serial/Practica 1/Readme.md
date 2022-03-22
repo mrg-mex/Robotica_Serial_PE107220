@@ -49,6 +49,6 @@
 •	Archivos de importación de los sistemas mecánicos.
 
 
-Para el desarrollo del resto de la práctica consultar el documento en word contenido en está carpeta. 
- 
- 
+# Desarrollo de la práctica
+
+Consultar documento adjunto. 
