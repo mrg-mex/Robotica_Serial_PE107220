@@ -7,15 +7,18 @@
  
  ## Metas de la práctica
  
- -Crear los elementos de una simulación de un sistema mecánico compuesto por un eslabón unido a una junta rotacional.
+ Para la realización de la práctica se deben cumplir las siguientes metas:
  
- -Crear los elementos de una simulación de un sistema mecánico compuesto por un eslabón unido a una junta prismática.
- 
- -Programar el comportamiento cinemático de la postura de un eslabón unido a una junta rotacional.
- 
- -Programar el comportamiento cinemático de la postura de un eslabón unido a una junta prismática.
- 
- -Obtener el comportamiento cinemático de las velocidades y los pares resultantes de cada simulación.
+•	Crear los elementos de una simulación de un sistema mecánico compuesto por un eslabón unido a una junta rotacional.
+
+•	Crear los elementos de una simulación de un sistema mecánico compuesto por un eslabón unido a una junta prismática.
+
+•	Programar el comportamiento cinemático de la postura de un eslabón unido a una junta rotacional.
+
+•	Programar el comportamiento cinemático de la postura de un eslabón unido a una junta prismática.
+
+•	Obtener el comportamiento cinemático de las velocidades y los pares resultantes de cada simulación.
+
  
  
  # Antecedentes
