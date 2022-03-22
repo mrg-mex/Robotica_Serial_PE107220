@@ -7,8 +7,9 @@ Elaborar material didáctico para el fortalecimiento de la asignatura de Robóti
 
 ## Responsables del proyecto
 
--Dr. Víctor Javier González Villela
--M.I. Erik Peña Medina
+### Dr. Víctor Javier González Villela
+
+### M.I. Erik Peña Medina
 
 ## Introducción 
 
