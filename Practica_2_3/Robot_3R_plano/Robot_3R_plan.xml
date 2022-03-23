@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/23/20||17:35:54" using="Simscape Multibody Link Version 7.2" from="SolidWorks 26.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Robot_3R_plan" uid="Robot_3R_plan" version="125">
+<AssemblyFile name="Robot_3R_plan.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Eslabón_3-1" uid="Eslabón_3-1" entityUid="Eslabón_3*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.28735933193432117 -0.0063721044797163439 0.13500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Eslabón_1-1" uid="Eslabón_1-1" entityUid="Eslabón_1*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.047359331934321174 -0.0063721044797163395 0.115</Translation>
+</Transform>
+</Instance>
+<Instance name="Base_xy_inicial-1" uid="Base_xy_inicial-1" grounded="true" entityUid="Base_xy_inicial*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0076406680656788337 -0.0063721044797163413 0.095000000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Eslabón_2-1" uid="Eslabón_2-1" entityUid="Eslabón_2*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.16735933193432118 -0.006372104479716343 0.125</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concéntrica1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_xy_inicial-1</Uid>
+</InstancePath>
+<Position>0.055000000000000007 0 0.029999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eslabón_1-1</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_xy_inicial-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eslabón_1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eslabón_1-1</Uid>
+</InstancePath>
+<Position>0.12 0 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eslabón_2-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eslabón_1-1</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eslabón_2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eslabón_2-1</Uid>
+</InstancePath>
+<Position>0.12 0 0.01999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eslabón_3-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eslabón_2-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eslabón_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base_xy_inicial" uid="Base_xy_inicial*:*Predeterminado" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base_xy_inicial.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.07867359282239815</Mass>
+<CenterOfMass>0.013512127349156133 0 0.0089234493477979987</CenterOfMass>
+<Inertia>2.1268374344016475e-05 6.465795801166208e-05 8.0402348338448764e-05 0 -7.0941386712126677e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_xy_inicial_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.86274509803921573" g="0.5490196078431373" b="0.54509803921568623" a="1"/>
+<Diffuse r="0.86274509803921573" g="0.5490196078431373" b="0.54509803921568623" a="1"/>
+<Specular r="0.86274509803921573" g="0.5490196078431373" b="0.54509803921568623" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eslabón_1" uid="Eslabón_1*:*Predeterminado" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Eslabón_1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.043929955139988597</Mass>
+<CenterOfMass>0.06315117869450701 0 0.005262598224542254</CenterOfMass>
+<Inertia>3.6379729040940178e-06 7.5975590153163646e-05 7.8656737202318329e-05 0 -6.5580392219813368e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="Eslabón_1_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.93333333333333335" g="0.6588235294117647" b="0.6588235294117647" a="1"/>
+<Diffuse r="0.93333333333333335" g="0.6588235294117647" b="0.6588235294117647" a="1"/>
+<Specular r="0.93333333333333335" g="0.6588235294117647" b="0.6588235294117647" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eslabón_2" uid="Eslabón_2*:*Predeterminado" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Eslabón_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.043929955139988597</Mass>
+<CenterOfMass>0.06315117869450701 0 0.005262598224542254</CenterOfMass>
+<Inertia>3.6379729040940182e-06 7.5975590153163632e-05 7.8656737202318315e-05 0 -6.5580392219813315e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="Eslabón_2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69019607843137254" g="0.8901960784313725" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.69019607843137254" g="0.8901960784313725" b="0.58823529411764708" a="1"/>
+<Specular r="0.69019607843137254" g="0.8901960784313725" b="0.58823529411764708" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eslabón_3" uid="Eslabón_3*:*Predeterminado" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Eslabón_3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025569955139988582</Mass>
+<CenterOfMass>0.032706910081185279 0 0.0054511516801975489</CenterOfMass>
+<Inertia>2.1057977649631927e-06 1.5292397068520959e-05 1.6751719256806481e-05 0 -3.1485112631412741e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="Eslabón_3_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.54509803921568623" g="0.61568627450980395" b="0.85882352941176465" a="1"/>
+<Diffuse r="0.54509803921568623" g="0.61568627450980395" b="0.85882352941176465" a="1"/>
+<Specular r="0.54509803921568623" g="0.61568627450980395" b="0.85882352941176465" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
