@@ -34,4 +34,3 @@ La composición de esta practica se conforma de la siguiente manera:
 - **Archivos de exportación** para Simscape Multibody (Archivos .xml)
 - Archivos de **configuración del CAD exportado** (Archivo DataFile.m)
 - Arhcivo de **Simulación en Simulink** (Archivo .slx)
-***
