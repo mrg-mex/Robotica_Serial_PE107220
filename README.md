@@ -11,6 +11,14 @@ Elaborar material didáctico para el fortalecimiento de la asignatura de Robóti
 
 ### M.I. Erik Peña Medina
 
+con colaboración de:
+
+### M.I. Alejandro Ruiz Esparza Rodríguez
+
+### M.I. Juan Carlos García Hernández
+
+
+
 ## Introducción 
 
 En este repositorio contiene los archivos necesarios para realizar las prácticas de las asignatura de robótica que se imparte en el departamento de Ingeniería Mecatrónica de la Facultad de Ingeniería de la UNAM. Las prácticas se dividen en prácticas de robótica serial y una práctica de robótica paralela. Las prácticas se realizarón utilizando la herramienta de programación Matlab. 
