@@ -34,3 +34,10 @@ La composición de esta practica se conforma de la siguiente manera:
 - **Archivos de exportación** para Simscape Multibody (Archivos .xml)
 - Archivos de **configuración del CAD exportado** (Archivo DataFile.m)
 - Arhcivo de **Simulación en Simulink** (Archivo .slx)
+
+
+# Autor: M.I. Juan Carlos García Hernández
+
+## M.I. Juan Carlos García Hernández
+
+#### Material realizado en el Departamento de Ingeniería Mecatrónica, Facultad de Ingeniería, UNAM, CU, mediante el apoyo de la Dirección General de Asuntos del Personal Académico, Dirección de Apoyo a la Docencia, mediante el proyecto PAPIME PE107220 “Fortalecimiento de la enseñanza de la asignatura de robótica mediante la elaboración de material didáctico”
