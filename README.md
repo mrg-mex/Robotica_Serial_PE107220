@@ -17,7 +17,7 @@ con colaboración de:
 
 ### M.I. Juan Carlos García Hernández
 
-
+### Ing. Felipe Rivas Campos
 
 ## Introducción 
 
