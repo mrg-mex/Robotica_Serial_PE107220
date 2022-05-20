@@ -77,7 +77,14 @@ t_sim = 0:t_in:t_total;
 %Puntos de la trayectoria%%%%%%%%%%%%%%
 xp = x_in+((10/t_total^3)*t_sim.^3-(15/t_total^4)*t_sim.^4+(6/t_total^5)*t_sim.^5)*(x_fin-x_in);
 yp = y_in+((10/t_total^3)*t_sim.^3-(15/t_total^4)*t_sim.^4+(6/t_total^5)*t_sim.^5)*(y_fin-y_in);
-zp = z_in+((10/t_total^3)*t_sim.^3-(15/t_total^4)*t_sim.^4+(6/t_total^5)*t_sim.^5)*(z_fin-z_in);
+zp = z_in+((10/t_total^3)*t_sim.^3-(15/t_total^4)*t_sim.^4+(6/t_total^5)*t_s%%%%%%%Cálculo de las velocidades
+
+%Velocidades de la trayectoria%%%%%%%%%%%%%%
+xpv = ((30/t_total^3)*t_sim.^2-(60/t_total^4)*t_sim.^3+(30/t_total^5)*t_sim.^4)*(x_fin-x_in);
+ypv = ((30/t_total^3)*t_sim.^2-(60/t_total^4)*t_sim.^3+(30/t_total^5)*t_sim.^4)*(y_fin-y_in);
+zpv = ((30/t_total^3)*t_sim.^2-(60/t_total^4)*t_sim.^3+(30/t_total^5)*t_sim.^4)*(z_fin-z_in);
+
+
  
 plot3(xp,yp,zp)
 grid on
