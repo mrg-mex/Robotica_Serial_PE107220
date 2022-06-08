@@ -11,8 +11,6 @@ Elaborar material didáctico para el fortalecimiento de la asignatura de Robóti
 
 ### M.I. Erik Peña Medina
 
-con colaboración de:
-
 ### M.I. Alejandro Ruiz Esparza Rodríguez
 
 ### M.I. Juan Carlos García Hernández
