@@ -36,6 +36,9 @@ La composición de esta practica se conforma de la siguiente manera:
 - Arhcivo de **Simulación en Simulink** (Archivo .slx)
 
 
-### Autor: M.I. Juan Carlos García Hernández
+### Autores
+
+### M.I. Juan Carlos García Hernández
+### M.I. Erik Peña Medina
 
 #### Material realizado en el Departamento de Ingeniería Mecatrónica, Facultad de Ingeniería, UNAM, CU, mediante el apoyo de la Dirección General de Asuntos del Personal Académico, Dirección de Apoyo a la Docencia, mediante el proyecto PAPIME PE107220 “Fortalecimiento de la enseñanza de la asignatura de robótica mediante la elaboración de material didáctico”
